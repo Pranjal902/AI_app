@@ -1,0 +1,7 @@
+{
+  "name": "VoxVeritas - Voice Authenticity Detector",
+  "description": "An MVP for detecting AI-generated vs. Human voices in Tamil, English, Hindi, Malayalam, and Telugu using Gemini's multimodal forensic analysis.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
