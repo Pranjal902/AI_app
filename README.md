@@ -7,6 +7,9 @@
 ## 🚀 Executive Summary
 In an era where AI can mimic human identity with terrifying accuracy, VoxVeritas restores digital trust. By bypassing traditional transcription-based analysis and feeding raw audio bitstreams directly into a multimodal neural engine, the system achieves a **94% detection accuracy** with a sub-3-second audit latency.
 
+### 🔗 Live Demo
+**[Launch VoxVeritas Neural Lab](https://ais-pre-ba3rpyoyy3oerry4zqf3qu-345266762671.asia-southeast1.run.app)**
+
 ## 🛡️ The Problem: The Weaponization of Regional Identity
 Current deepfake detection tools are often optimized for Western accents and struggle with the rhythmic and phonetic nuances of non-English languages. In late 2025, India saw a surge in "hyper-localized" voice scams using perfect regional dialects. VoxVeritas was developed to fill this gap, providing a forensic-grade solution that "feels" the authenticity of the signal rather than just "hearing" the words.
 
