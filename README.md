@@ -6,7 +6,7 @@
 
 This contains everything you need to run your app locally.
 
-View your app in AI Studio: https://ai.studio/apps/2ea7243b-6848-4ee8-a767-df98e99b9ac9
+Link to app: [https://ai.studio/apps/2ea7243b-6848-4ee8-a767-df98e99b9ac9](https://voxveritas-voice-authenticity-detector-737963030772.us-west1.run.app)
 
 ## Run Locally
 
