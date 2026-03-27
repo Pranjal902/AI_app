@@ -24,9 +24,10 @@ The biggest challenge wasn't the AI; it was the **human**.
 Initially, I used a pipeline of **Whisper (for transcription) + GPT-4 (for analysis)**. It was a disaster. The model could tell if the *words* sounded like a script, but it couldn't hear the *voice*. I was essentially guessing based on syntax.
 
 ### The Breakthrough (Post-Refinement: ~94%)
-I pivoted to **Gemini 3 Flash**. By leveraging its native audio-understanding capabilities, I stopped looking at words and started looking at **Prosodic Jitter** and **Spectral Quantization**. 
+I pivoted to **Gemini 3 Flash** within the **Google AI Studio** development environment. By leveraging its native audio-understanding capabilities, I stopped looking at words and started looking at **Prosodic Jitter** and **Spectral Quantization**. 
 *   **Fine-Tuning the "Forensic Ear"**: I didn't just use a generic prompt. I built a "Forensic Lab" system instruction that forced the model to act as a Senior Linguistic Analyst.
 *   **The Result**: Accuracy jumped to 94% in controlled tests, particularly in detecting "cloned" voices versus "synthetic" (TTS) ones.
+*   **Development Environment**: Google AI Studio provided the necessary multimodal playground to iterate rapidly on these forensic prompts and test them against real-world audio bitstreams.
 
 ## 5. Evaluation Metrics: The Forensic Scorecard
 I realized early on that simple "Accuracy" is a dangerous metric in forensics. If I have 99% accuracy but the 1% I miss is a high-stakes bank fraud call, the system has failed. I adopted a multi-layered evaluation framework:
